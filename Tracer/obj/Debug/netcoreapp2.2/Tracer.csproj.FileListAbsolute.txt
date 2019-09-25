@@ -1,0 +1,14 @@
+/Users/dimavi_ka/RiderProjects/Tracer/Tracer/bin/Debug/netcoreapp2.2/NUnit3.TestAdapter.dll
+/Users/dimavi_ka/RiderProjects/Tracer/Tracer/bin/Debug/netcoreapp2.2/NUnit3.TestAdapter.pdb
+/Users/dimavi_ka/RiderProjects/Tracer/Tracer/bin/Debug/netcoreapp2.2/nunit.engine.netstandard.dll
+/Users/dimavi_ka/RiderProjects/Tracer/Tracer/bin/Debug/netcoreapp2.2/Tracer.deps.json
+/Users/dimavi_ka/RiderProjects/Tracer/Tracer/bin/Debug/netcoreapp2.2/Tracer.runtimeconfig.json
+/Users/dimavi_ka/RiderProjects/Tracer/Tracer/bin/Debug/netcoreapp2.2/Tracer.runtimeconfig.dev.json
+/Users/dimavi_ka/RiderProjects/Tracer/Tracer/bin/Debug/netcoreapp2.2/Tracer.dll
+/Users/dimavi_ka/RiderProjects/Tracer/Tracer/bin/Debug/netcoreapp2.2/Tracer.pdb
+/Users/dimavi_ka/RiderProjects/Tracer/Tracer/obj/Debug/netcoreapp2.2/Tracer.csprojAssemblyReference.cache
+/Users/dimavi_ka/RiderProjects/Tracer/Tracer/obj/Debug/netcoreapp2.2/Tracer.csproj.CoreCompileInputs.cache
+/Users/dimavi_ka/RiderProjects/Tracer/Tracer/obj/Debug/netcoreapp2.2/Tracer.AssemblyInfoInputs.cache
+/Users/dimavi_ka/RiderProjects/Tracer/Tracer/obj/Debug/netcoreapp2.2/Tracer.AssemblyInfo.cs
+/Users/dimavi_ka/RiderProjects/Tracer/Tracer/obj/Debug/netcoreapp2.2/Tracer.dll
+/Users/dimavi_ka/RiderProjects/Tracer/Tracer/obj/Debug/netcoreapp2.2/Tracer.pdb
