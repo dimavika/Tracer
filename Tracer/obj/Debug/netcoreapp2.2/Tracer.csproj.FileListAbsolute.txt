@@ -12,3 +12,6 @@
 /Users/dimavi_ka/RiderProjects/Tracer/Tracer/obj/Debug/netcoreapp2.2/Tracer.AssemblyInfo.cs
 /Users/dimavi_ka/RiderProjects/Tracer/Tracer/obj/Debug/netcoreapp2.2/Tracer.dll
 /Users/dimavi_ka/RiderProjects/Tracer/Tracer/obj/Debug/netcoreapp2.2/Tracer.pdb
+/Users/dimavi_ka/RiderProjects/Tracer/Tracer/bin/Debug/netcoreapp2.2/ConsoleApp.dll
+/Users/dimavi_ka/RiderProjects/Tracer/Tracer/bin/Debug/netcoreapp2.2/ConsoleApp.pdb
+/Users/dimavi_ka/RiderProjects/Tracer/Tracer/obj/Debug/netcoreapp2.2/Tracer.csproj.CopyComplete

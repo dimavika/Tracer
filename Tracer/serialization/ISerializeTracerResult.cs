@@ -1,6 +1,6 @@
 using Tracer.tracer;
 
-namespace Tracer
+namespace Serialization.serialization
 {
     public interface ISerializeTracerResult
     {

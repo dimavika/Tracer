@@ -7,7 +7,38 @@
     <e p="$USER_HOME$/Library/Caches/Rider2019.2/extResources" t="IncludeRecursive" />
     <e p="$USER_HOME$/Library/Caches/Rider2019.2/resharper-host/local/Transient/ReSharperHost/v192/SolutionCaches/_Tracer.-908423022.00" t="ExcludeRecursive" />
     <e p="$PROJECT_DIR$" t="IncludeFlat">
+      <e p="ConsoleApp" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="ConsoleApp.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp2.2" t="Include">
+              <e p="ConsoleApp.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="output" t="Include">
+          <e p="ConsoleOutPut.cs" t="Include" />
+          <e p="FileOutPut.cs" t="Include" />
+          <e p="IOutputTracerResult.cs" t="Include" />
+        </e>
+      </e>
       <e p="packages" t="ExcludeRecursive" />
+      <e p="TestProject1" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp2.2" t="Include">
+              <e p="TestProject1.AssemblyInfo.cs" t="Include" />
+              <e p="TestProject1.Program.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Test" t="Include">
+          <e p="UnitTest1.cs" t="Include" />
+        </e>
+        <e p="TestProject1.csproj" t="IncludeRecursive" />
+      </e>
       <e p="Tracer" t="IncludeRecursive">
         <e p="bin" t="ExcludeRecursive" />
         <e p="obj" t="ExcludeRecursive">
@@ -18,23 +49,16 @@
             </e>
           </e>
         </e>
-        <e p="output" t="Include">
-          <e p="ConsoleOutPut.cs" t="Include" />
-          <e p="FileOutPut.cs" t="Include" />
-          <e p="IOutputTracerResult.cs" t="Include" />
-        </e>
         <e p="serialization" t="Include">
           <e p="ISerializeTracerResult.cs" t="Include" />
           <e p="JsonSerialize.cs" t="Include" />
           <e p="XmlSerialize.cs" t="Include" />
         </e>
-        <e p="Test" t="Include">
-          <e p="UnitTest1.cs" t="Include" />
-        </e>
         <e p="Tracer" t="Include">
           <e p="ITracer.cs" t="Include" />
           <e p="Method.cs" t="Include" />
           <e p="MyThread.cs" t="Include" />
+          <e p="ThreadInfo.cs" t="Include" />
           <e p="Tracer.cs" t="Include" />
           <e p="TraceResult.cs" t="Include" />
         </e>

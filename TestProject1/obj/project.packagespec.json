@@ -1,0 +1,65 @@
+﻿{
+  "version": "1.0.0",
+  "restore": {
+    "projectUniqueName": "/Users/dimavi_ka/RiderProjects/Tracer/TestProject1/TestProject1.csproj",
+    "projectName": "TestProject1",
+    "projectPath": "/Users/dimavi_ka/RiderProjects/Tracer/TestProject1/TestProject1.csproj",
+    "outputPath": "/Users/dimavi_ka/RiderProjects/Tracer/TestProject1/obj/",
+    "projectStyle": "PackageReference",
+    "fallbackFolders": [
+      "/Users/dimavi_ka/.dotnet/sdk/NuGetFallbackFolder"
+    ],
+    "originalTargetFrameworks": [
+      "netcoreapp2.2"
+    ],
+    "sources": {
+      "https://api.nuget.org/v3/index.json": {}
+    },
+    "frameworks": {
+      "netcoreapp2.2": {
+        "projectReferences": {
+          "/Users/dimavi_ka/RiderProjects/Tracer/ConsoleApp/ConsoleApp.csproj": {
+            "projectPath": "/Users/dimavi_ka/RiderProjects/Tracer/ConsoleApp/ConsoleApp.csproj"
+          },
+          "/Users/dimavi_ka/RiderProjects/Tracer/Tracer/Tracer.csproj": {
+            "projectPath": "/Users/dimavi_ka/RiderProjects/Tracer/Tracer/Tracer.csproj"
+          }
+        }
+      }
+    },
+    "warningProperties": {
+      "warnAsError": [
+        "NU1605"
+      ]
+    }
+  },
+  "frameworks": {
+    "netcoreapp2.2": {
+      "dependencies": {
+        "Microsoft.NET.Test.Sdk": {
+          "target": "Package",
+          "version": "[15.9.0, )"
+        },
+        "Microsoft.NETCore.App": {
+          "suppressParent": "All",
+          "target": "Package",
+          "version": "[2.2.0, )",
+          "autoReferenced": true
+        },
+        "NUnit3TestAdapter": {
+          "target": "Package",
+          "version": "[3.11.0, )"
+        },
+        "nunit": {
+          "target": "Package",
+          "version": "[3.11.0, )"
+        }
+      },
+      "imports": [
+        "net461"
+      ],
+      "assetTargetFallback": true,
+      "warn": true
+    }
+  }
+}

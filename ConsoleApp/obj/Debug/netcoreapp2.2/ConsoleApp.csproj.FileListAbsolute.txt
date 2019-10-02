@@ -1,0 +1,9 @@
+/Users/dimavi_ka/RiderProjects/Tracer/ConsoleApp/obj/Debug/netcoreapp2.2/ConsoleApp.csprojAssemblyReference.cache
+/Users/dimavi_ka/RiderProjects/Tracer/ConsoleApp/obj/Debug/netcoreapp2.2/ConsoleApp.csproj.CoreCompileInputs.cache
+/Users/dimavi_ka/RiderProjects/Tracer/ConsoleApp/obj/Debug/netcoreapp2.2/ConsoleApp.AssemblyInfoInputs.cache
+/Users/dimavi_ka/RiderProjects/Tracer/ConsoleApp/obj/Debug/netcoreapp2.2/ConsoleApp.AssemblyInfo.cs
+/Users/dimavi_ka/RiderProjects/Tracer/ConsoleApp/bin/Debug/netcoreapp2.2/ConsoleApp.deps.json
+/Users/dimavi_ka/RiderProjects/Tracer/ConsoleApp/bin/Debug/netcoreapp2.2/ConsoleApp.dll
+/Users/dimavi_ka/RiderProjects/Tracer/ConsoleApp/bin/Debug/netcoreapp2.2/ConsoleApp.pdb
+/Users/dimavi_ka/RiderProjects/Tracer/ConsoleApp/obj/Debug/netcoreapp2.2/ConsoleApp.dll
+/Users/dimavi_ka/RiderProjects/Tracer/ConsoleApp/obj/Debug/netcoreapp2.2/ConsoleApp.pdb

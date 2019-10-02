@@ -17,7 +17,11 @@
     },
     "frameworks": {
       "netcoreapp2.2": {
-        "projectReferences": {}
+        "projectReferences": {
+          "/Users/dimavi_ka/RiderProjects/Tracer/ConsoleApp/ConsoleApp.csproj": {
+            "projectPath": "/Users/dimavi_ka/RiderProjects/Tracer/ConsoleApp/ConsoleApp.csproj"
+          }
+        }
       }
     },
     "warningProperties": {

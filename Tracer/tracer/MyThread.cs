@@ -13,19 +13,21 @@ namespace Tracer.tracer
         public int ThreadId
         {
             get => _threadId;
-            set => _threadId = value;
+            private set => _threadId = value;
         }
 
         public long Time
         {
             get => _time;
-            set => _time = value;
+            private set => _time = value;
         }
         public Method[] Methods
         {
             get => _methods;
-            set => _methods = value;
+            private set => _methods = value;
         }
+
+//        public TYPE Type { get; set; }
 
         public MyThread()
         {

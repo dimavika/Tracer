@@ -1,4 +1,4 @@
-namespace Tracer
+namespace ConsoleApp.output
 {
     public interface IOutputTracerResult
     {

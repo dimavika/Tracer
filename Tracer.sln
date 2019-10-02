@@ -2,6 +2,10 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tracer", "Tracer\Tracer.csproj", "{73EF8FC9-D84D-431B-B8D9-E83DBACE354C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp", "ConsoleApp\ConsoleApp.csproj", "{F2AD523B-419D-4695-8826-D61AFE57E60D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestProject1", "TestProject1\TestProject1.csproj", "{D1711C17-B29E-4ADE-9F91-F4D399ED76F0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +16,13 @@ Global
 		{73EF8FC9-D84D-431B-B8D9-E83DBACE354C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{73EF8FC9-D84D-431B-B8D9-E83DBACE354C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{73EF8FC9-D84D-431B-B8D9-E83DBACE354C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2AD523B-419D-4695-8826-D61AFE57E60D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2AD523B-419D-4695-8826-D61AFE57E60D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2AD523B-419D-4695-8826-D61AFE57E60D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2AD523B-419D-4695-8826-D61AFE57E60D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1711C17-B29E-4ADE-9F91-F4D399ED76F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1711C17-B29E-4ADE-9F91-F4D399ED76F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1711C17-B29E-4ADE-9F91-F4D399ED76F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1711C17-B29E-4ADE-9F91-F4D399ED76F0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

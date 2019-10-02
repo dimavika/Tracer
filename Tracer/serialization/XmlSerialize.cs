@@ -1,9 +1,8 @@
-using System.Collections.Generic;
 using System.IO;
 using System.Xml.Serialization;
 using Tracer.tracer;
 
-namespace Tracer
+namespace Serialization.serialization
 {
     public class XmlSerialize : ISerializeTracerResult
     {

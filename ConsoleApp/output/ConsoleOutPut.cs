@@ -1,6 +1,7 @@
 using System;
+using ConsoleApp.output;
 
-namespace Tracer
+namespace ConsoleApp.output
 {
     public class ConsoleOutPut : IOutputTracerResult
     {

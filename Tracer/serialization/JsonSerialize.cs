@@ -1,7 +1,7 @@
 using Newtonsoft.Json;
 using Tracer.tracer;
 
-namespace Tracer
+namespace Serialization.serialization
 {
     public class JsonSerialize : ISerializeTracerResult
     {

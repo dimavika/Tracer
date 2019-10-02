@@ -1,5 +1,7 @@
 using System.Collections.Concurrent;
 using System.Collections.Generic;
+using ConsoleApp.output;
+using Serialization.serialization;
 
 namespace Tracer.tracer
 {
@@ -7,10 +9,10 @@ namespace Tracer.tracer
     {
         private MyThread[] _threads;
 
-        public MyThread[] Threads
+        public MyThread[] Threads 
         {
             get => _threads;
-            set => _threads = value;
+            private set => _threads = value;
         }
 
         public TraceResult()
@@ -22,14 +24,14 @@ namespace Tracer.tracer
             outPutTracerResult.output(serializeTracerResult.GetString(_threads));
         }
 
-        public TraceResult(ConcurrentDictionary<int, ConcurrentStack<Method>> threads)
+        public TraceResult(ConcurrentDictionary<int, ThreadInfo> threads)
         {
-            KeyValuePair<int, ConcurrentStack<Method>>[] pairs = threads.ToArray();
-            _threads = new MyThread[pairs.Length];
+            KeyValuePair<int, ThreadInfo>[] pairs = threads.ToArray();
+            _threads = new MyThread[pairs.Length]; 
             for (var i = 0; i < pairs.Length; i++)
             {
                 var stack = pairs[i].Value;
-                Method[] methods = stack.ToArray();
+                Method[] methods = stack.TracedMethods.ToArray();
                 _threads[i] = new MyThread(pairs[i].Key, methods);
             }
         }

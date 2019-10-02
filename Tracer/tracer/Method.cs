@@ -11,20 +11,16 @@ namespace Tracer.tracer
         private long _time;
         private Stopwatch _stopwatch;
         private Method[] _methods;
-        public Method[] Methods
-        {
-            get => _methods;
-            set => _methods = value;
-        }
+        
         public string Name
         {
             get => _name;
-            set => _name = value;
+            private set => _name = value;
         }
         public string ClassName
         {
             get => _className;
-            set => _className = value;
+            private set => _className = value;
         }
 
         public Method(string name, string className)
@@ -43,7 +39,13 @@ namespace Tracer.tracer
         public long Time
         {
             get => _time;
-            set => _time = value;
+            private set => _time = value;
+        }
+        
+        public Method[] Methods
+        {
+            get => _methods;
+            private set => _methods = value;
         }
 
         public void StartTime()
